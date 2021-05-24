@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textSize">50dp</item>
+    </style>
+    <style name="NewFontStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/laila_bold</item>
+        <item name="android:textSize">22dp</item>
+    </style>
+    <style name="NavigationTheme" parent="AppTheme">
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="AppTheme.ToolbarFont" parent="AppTheme">
+        <item name="android:fontFamily">@font/laila_bold</item>
+        <item name="android:textColorPrimary">@color/barColor</item>
+        <item name="android:textColorSecondary">@color/barColor</item>
+    </style>
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="Toolbar.TitleAlignment" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+    </style>
+    />
+
+</resources>
